@@ -1,8 +1,8 @@
 import java.util.*;
-
+//[[4, 1, 3, 1, 2, 4, 3, 2], [2, 3, 4, 2, 1, 3, 1, 4]]
 class Solution {
 	public static void findCombinationsAll(int x, int n, ArrayList<Integer> list, Set < List<Integer>> combinations) {
-/// -1, -1, -1, -1, 
+/// -1, -1, -1, -1, -1
 		if (x > n) {
 			combinations.add(new ArrayList<>(list));
 			System.out.println(combinations);

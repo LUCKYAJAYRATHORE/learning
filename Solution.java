@@ -23,7 +23,7 @@ class Solution {
 		}
 	}
 
-	public static Set < List<Integer>> (int n) {
+	public static Set < List<Integer>> findCombinations(int n) {
 		Set < List<Integer>> combinations = new HashSet<>();
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for (int i = 0; i < 2 * 4; i++) {

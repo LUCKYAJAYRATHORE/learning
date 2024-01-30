@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
 	public static void findCombinationsAll(int x, int n, ArrayList<Integer> list, Set < List<Integer>> combinations) {
-
+/// -1, -1, -1, -1, 
 		if (x > n) {
 			combinations.add(new ArrayList<>(list));
 			System.out.println(combinations);
@@ -10,7 +10,7 @@ class Solution {
 		}
 
 		for (int i = 0; i < 2*n; i++) {
-			if (list.get(i) == -1 && (i + x + 1)<2 * n && list.get(i + x + 1) == -1) {
+			if (list.get(i) == -1 && (i + x + 1)<2*n && list.get(i + x + 1) == -1) {
 				list.set(i, x);
 				list.set(i + x + 1, x);
 
@@ -23,7 +23,7 @@ class Solution {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static Set < List<Integer>> (int n) {
 		Set < List<Integer>> combinations = new HashSet<>();
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for (int i = 0; i < 2 * 4; i++) {
@@ -33,6 +33,6 @@ class Solution {
 			for(List<Integer> c : combinations){
 			System.out.println(c);
 		}
-		return;
+		return combinations;
 	}
 }

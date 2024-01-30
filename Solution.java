@@ -26,7 +26,7 @@ class Solution {
 	public static void main(String[] args) {
 		Set < List<Integer>> combinations = new HashSet<>();
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		for (int i = 0; i < 2 * 3; i++) {
+		for (int i = 0; i < 2 * 4; i++) {
 			list.add(-1);
 		}
 		findCombinationsAll(1,4,list, combinations);

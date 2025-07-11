@@ -90,4 +90,15 @@ public class ArrayDuplicates {
         //{2, 2, 3,  3, 4, 16};
         System.out.println(duplicates(arr, 5));
     }
+    ///✅ Time Complexity
+// Both are just binary search.
+
+// Each iteration cuts the search range in half.
+
+// So they run in O(log n) time for an array of size n.
+
+// ✅ Space Complexity
+// Both use only a constant number of variables (lo, hi, mid).
+
+// So they use O(1) extra space.
 }

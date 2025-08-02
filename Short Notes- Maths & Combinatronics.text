@@ -1,0 +1,21 @@
+Floor of a number gives the greatest integer less than or equal to it.
+Example: floor(3.8) = 3
+
+Ceil gives the smallest integer greater than or equal to the number.
+Example: ceil(3.2) = 4
+The sum of the first n natural numbers is: Sum = (n(n+1))/2
+
+The GCD (Greatest Common Divisor) of two numbers a and b is the largest number that divides both.
+Found using the Euclidean algorithm: gcd(a,b)=gcd(b,a%b)
+The LCM (Least Common Multiple) is the smallest number that is divisible by both a and b.
+Formula: lcm(a,b)= (a x b)/ gcd(a,b)
+A number is called a perfect number if it is equal to the sum of its proper divisors.
+Example: 6 → divisors: 1, 2, 3 → sum = 6
+To find factors of a number n, iterate from 1 to √n and check n % i == 0. Store both i and n/i.
+Decimal to binary conversion: divide the number by 2 repeatedly, store remainders, and reverse them.
+
+1 1 1
+
+0
+
+3 1 0
